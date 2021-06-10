@@ -20,9 +20,8 @@ body header ul a {
     color: #03264C;
 }
 #banner {
-    width: 100vw;
-    position: absolute;
-    left: 0px;
+    width: 100%;
+    
 }
 body main {
     width: 90vw;
