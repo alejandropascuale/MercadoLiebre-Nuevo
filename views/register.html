@@ -53,13 +53,53 @@
             <i class="fas fa-bars" id="format-bars"></i>
         </div>
     </header>
-    <div>
-        <img src="/images/img-home-banner.jpg" id="banner" alt="Banner de pagina">
-    </div>
-    <main>
-        <form action="">
 
-        </form>
+    <main>
+        <h1>Formulario de Registro</h1>
+        <div>
+            <form action="/registro">
+                <div>
+                    <label for="name">Nombre y Apellido</label>
+                </div>
+                <input type="text" name="name&lastname" id="name">
+                <div>
+                    <label for="username">Nombre de Usuario</label>
+                </div>
+                <input type="text" name="username" id="username">
+                <div>
+                    <label for="datebirthday">Fecha de Nacimiento</label>
+                </div>
+                <input type="date" name="datebirthday" id="datebirthday">
+                <div>
+                    <label for="adress">Dirección</label>
+                </div>
+                <input type="text" name="addres" id="addres">
+                <div>
+                    <label for="profile">Perfil</label>
+                </div>
+                <div>
+                    <label for="">Comprar</label>
+                    <input type="radio" name="profile" id="profile" value="Comprar">
+                    <label for="">Vender</label>
+                    <input type="radio" name="profile" id="profile" value="Vender">
+                </div>
+                <div>
+                    <div>
+                        <label for="category">Categoría</label>
+                    </div>
+                    <label for="Electro">Electro</label>
+                    <input type="checkbox" name="category" id="category" value="Electro">
+                    <label for="Moda">Moda</label>
+                    <input type="checkbox" name="category" id="category" value="Moda">
+                    <label for="Hogar">Hogar</label>
+                    <input type="checkbox" name="category" id="category" value="Hogar">
+                    <label for="Jugetería">Jugetería</label>
+                    <input type="checkbox" name="category" id="category" value="Jugetería">
+                    <label for="Vida Sana">Vida Sana</label>
+                    <input type="checkbox" name="category" id="category" value="Vida sana">
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <article>
