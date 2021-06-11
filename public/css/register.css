@@ -19,27 +19,6 @@ body header ul a {
     text-decoration: none;
     color: #03264C;
 }
-#banner {
-    width: 100%;
-    
-}
-body main {
-    width: 90vw;
-    margin: auto;
-    padding-top: 10px;
-}
-main section h1 {
-    font-size: 24px;
-    text-align: center;
-    color: #666;
-}
-main section article {
-    margin: 10px 0px;
-}
-main section article p, main section article h4 {
-    font-size: 16px;
-    margin: 5px 0px;
-}
 footer {
     background-color: white;
     padding-top: 20px;
@@ -91,6 +70,7 @@ footer p {
     top: 5.5px;
     right: -6px;
 }
+
 .main-bar {
     display: inline-flex;
     padding: 3px;
@@ -110,51 +90,6 @@ footer p {
     font-size: 18px;
     margin: auto;
 }
-.box-article {
-    border: solid 1px #ebebeb;
-    padding: 15px;
-    background-color: white;
-    display: block;
-    position: relative; 
-}
-.delivery-icon {
-    display: block;
-    position: absolute;
-    right: 20px;
-    top: -30px;
-    background-color: white;
-    border-radius: 50%;
-}
-.icon-truck {
-    display: flex;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid #39b54a;
-    color: #39b54a;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-}
-.price {
-    font-size: 16px;
-    width: 30%;
-}
-.discount {
-    color: #39b54a;
-    font-size: 16px;
-    width: 70%;
-}
-.description {
-    font-size: 14px;
-    color: #666;
-    margin-top: 15px;
-    display: none;
-}
-.contenedor-precio-dscto {
-    display: inline-flex;
-    width: 100%;
-}
 @media (max-width: 360px){
     #center-bars {
         display: flex;
@@ -171,22 +106,6 @@ footer p {
     }
     #center-bars {
         display: none;
-    }
-    .description {
-        display: block;
-    }
-    main section article {
-        margin: 10px 0px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-        width: 50%;
-    }
-    .contenedor-productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    main section div article {
-        width: 45%;
     }
     .header-bar {
         display: inline-flex;
@@ -214,30 +133,6 @@ footer p {
     }
     #center-bars {
         display: none;
-    }
-    .description {
-        display: block;
-    }
-    .price {
-        font-size: 16px;
-        width: 50%;
-    }
-    .discount {
-        color: #39b54a;
-        font-size: 16px;
-        width: 50%;
-    }
-    main section article {
-        margin: 10px 0px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .contenedor-productos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    main section div article {
-        width: 20%;
     }
     .header-bar {
         display: inline-flex;
