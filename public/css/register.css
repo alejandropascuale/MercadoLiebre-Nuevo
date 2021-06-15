@@ -18,6 +18,12 @@ body header ul {
 body header ul a {
     text-decoration: none;
     color: #03264C;
+    font-size: 14px;
+}
+body main {
+    width: 90vw;
+    margin: auto;
+    padding-top: 10px;
 }
 footer {
     background-color: white;
@@ -53,8 +59,8 @@ footer p {
 }
 #titulo {
     text-align: center;
-    padding-top: 5%;
     font-size: 12px;
+    width: 100%;
 }
 #search-bar {
        width: 100%;
@@ -62,21 +68,24 @@ footer p {
        border-radius: 5px;
        border: none;
        color: #666;
+       font-size: 13px;
 }
 #icon-search {
     background-color: white;
     color: #666;
-    position: absolute;
-    top: 5.5px;
-    right: -6px;
+    width: 10%;
 }
-
+.search-view-mobile {
+    display: inline-flex;
+    width: 48%;
+    position: relative;
+}
 .main-bar {
     display: inline-flex;
-    padding: 3px;
+    flex-direction: row;
 }
 .align-mainbar {
-    width: 50%;
+    width: 48%;
     position: relative;
 }
 #format-bars {
@@ -97,6 +106,14 @@ footer p {
         justify-content: center;
         align-content: center;
         padding-top: 15px;
+    }
+    #titulo {
+        padding-top: 5%;
+    }
+    #icon-search {
+        position: absolute;
+        right: -7px;
+        top: 4px;
     }
 }
 @media (min-width: 361px){
@@ -123,13 +140,21 @@ footer p {
     #icon-search {
      background-color: white;
      color: #666;
-     position: static;
+     padding: 4px;
+     text-align: center;
+     border: 1px solid;
+     border-radius: 3px;
     }
 }
-@media (min-width: 769px){
+@media (min-width: 768px){
+    body header {
+        padding-top: 20px;
+    }
     body header ul {
-        padding: 20px;
-        display: block;
+        display: inline-flex;
+    }
+    .width-search-bar {
+        width: 70%;
     }
     #center-bars {
         display: none;
@@ -138,6 +163,52 @@ footer p {
         display: inline-flex;
     }
     .main-bar {
+        width: 66.66%;
+    }
+    .main-view {
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #titulo {
         width: 33.33%;
+        display: flex;
+    }
+    .align-mainbar {
+        width: 48%;
+    }
+    .search-view-mobile {
+        display: inline-flex;
+        margin: 0px;
+        align-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .align-menu {
+        display: inline-flex;
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    body header ul a {
+        text-decoration: none;
+        color: #03264C;
+        font-size: 18px;
+    }
+    body header ul {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    .align-menu {
+        width: 40%;
+    }
+    #titulo {
+        font-size: 16px;
+    }
+    form {
+        width: 80%;
+    }
+    .width-search-bar {
+        width: 85%;
     }
 }
