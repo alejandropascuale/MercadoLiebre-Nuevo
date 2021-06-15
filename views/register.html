@@ -60,53 +60,77 @@
     <main>
         <div>
             <form action="/">
-                <div>
-                    <label for="name">Nombre y Apellido</label>
-                    <input type="text" name="name" id="name">
+                <div class="format-bar">
+                    <label for="name" class="view-not-mobile">Nombre y Apellido</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
                 </div>
-                <div>
-                    <label for="user">Nombre de usuario</label>
-                    <input type="text" name="user" id="user" minlength="5" maxlength="12">
+                <div class="format-bar">
+                    <label for="user" class="view-not-mobile">Nombre de usuario</label>
+                    <input type="text" name="user" id="user" minlength="5" maxlength="12"
+                        placeholder="Nombre de usuario">
                 </div>
-                <div>
-                    <label for="birth">Fecha de Nacimiento</label>
+                <div class="format-bar">
+                    <label for="birth" class="title">Fecha de Nacimiento</label>
                     <input type="date" name="bith" id="birth">
                 </div>
-                <div>
-                    <label for="adress">Domicilio</label>
-                    <input type="text" name="adress" id="adress" max="30">
+                <div class="format-bar">
+                    <label for="adress" class="view-not-mobile">Domicilio</label>
+                    <input type="text" name="adress" id="adress" max="30" placeholder="Domicilio">
                 </div>
-                <div>
-                    <label for="profile">Perfil</label>
-                    Comprar<input type="radio" name="profile" id="profile" value="Comprar">
-                    Vender<input type="radio" name="profile" id="profile" value="Vender">
+                <div class="format-bar profile">
+                    <label for="profile" class="title">Perfil</label>
+                    <div>
+                        <input type="radio" name="profile" id="profile" value="Comprar">
+                        <label for="comprar">Comprar</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="profile" id="profile" value="Vender">
+                        <label for="vender">Vender</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="category">Categorías de interés</label>
-                    Electro<input type="checkbox" name="category" id="category" value="Electro">
-                    Moda<input type="checkbox" name="category" id="category" value="Moda">
-                    Hogar<input type="checkbox" name="category" id="category" value="Hogar">
-                    Jugetería<input type="checkbox" name="category" id="category" value="Jugetería">
-                    Vida sana<input type="checkbox" name="category" id="category" value="Vida sana">
+                <div class="format-bar">
+                    <label for="category" class="title">Categorías de interés</label>
+                    <div>
+                        <input type="checkbox" name="category" id="category" value="Electro">
+                        <label for="electro">Electro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="category" id="category" value="Moda">
+                        <label for="moda">Moda</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="category" id="category" value="Hogar">
+                        <label for="hogar">Hogar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="category" id="category" value="Jugetería">
+                        <label for="jugeteria">Jugetería</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="category" id="category" value="Vida sana">
+                        <label for="vida sana">Vida sana</label>
+                    </div>
                 </div>
-                <div>
-                    <label for="img-profile">Selecciona una imagen de perfil</label>
+                <div class="format-bar">
+                    <label for="img-profile" class="title">Selecciona una imagen de perfil</label>
                     <input type="file" name="img-profile" id="img-profile" accept="jpg" multiple>
                 </div>
-                <div>
-                    <label for="pasword">Contraseña</label>
-                    <input type="password" name="pasword" id="password" required>
+                <div class="format-bar">
+                    <label for="pasword" class="view-not-mobile">Contraseña</label>
+                    <input type="password" name="pasword" id="password" required placeholder="Contraseña">
                 </div>
-                <div>
-                    <label for="pasword">Confirmar contraseña</label>
-                    <input type="password" name="pasword" id="password" required>
+                <div class="format-bar">
+                    <label for="pasword" class="view-not-mobile">Confirmar contraseña</label>
+                    <input type="password" name="pasword" id="password" required placeholder="Reingrese contraseña">
                 </div>
-                <div>
-                    <button type="submit">Enviar</button>
-                </div>
-                <div>
-                    <button type="reset">Borrar datos</button>
-                </div>
+                <fieldset>
+                    <div>
+                        <button type="reset" class="button-reset">Borrar datos</button>
+                    </div>
+                    <div>
+                        <button type="submit" class="button-send">Enviar</button>
+                    </div>
+                </fieldset>
             </form>
         </div>
     </main>

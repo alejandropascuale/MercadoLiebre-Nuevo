@@ -24,6 +24,8 @@ body main {
     width: 90vw;
     margin: auto;
     padding-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 footer {
     background-color: white;
@@ -98,6 +100,53 @@ footer p {
     text-align: center;
     font-size: 18px;
     margin: auto;
+}
+.button-send {
+    background-color: #1259c3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+}
+.button-reset {
+    padding: 10px;
+    border-radius: 5px;
+}
+main form {
+    width: 75vw;
+}
+fieldset {
+    display: flex;
+    border: none;
+}
+.title {
+    font-size: 16px;
+    font-weight: bold;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    padding: 8px;
+}
+input:invalid {
+    border: rgba(255, 87, 87, 0.5) solid 2px;
+    color: red;
+    font-style: italic;
+}
+/*input:invalid:required {
+    background-image: linear-gradient(to right, pink, white);
+    border: rgba(255, 87, 87, 0.5) solid 2px;
+}*/
+.view-not-mobile {
+    display: none;
+}
+.format-bar {
+    margin-bottom: 20px;
+}
+.profile {
+    display: flex;
 }
 @media (max-width: 360px){
     #center-bars {
@@ -188,6 +237,9 @@ footer p {
         display: inline-flex;
         width: 45%;
     }
+    .view-not-mobile {
+        display: block;
+    }
 }
 @media (min-width: 1024px) {
     body header ul a {
@@ -210,5 +262,8 @@ footer p {
     }
     .width-search-bar {
         width: 85%;
+    }
+    .view-not-mobile {
+        display: block;
     }
 }
