@@ -285,4 +285,11 @@ input:invalid {
     .align-button {
         text-align: center;
     }
+    .footer-flex {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    footer article {
+        width: 30%;
+    }
 }

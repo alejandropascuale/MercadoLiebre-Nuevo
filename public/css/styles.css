@@ -73,6 +73,7 @@ footer article div i {
     text-align: center;
     font-size: 12px;
     width: 100%;
+    padding-top: 5%;
 }
 #search-bar {
        width: 100%;
@@ -86,6 +87,9 @@ footer article div i {
     background-color: white;
     color: #666;
     width: 10%;
+    position: absolute;
+    right: -7px;
+    top: 4px;
 }
 .search-view-mobile {
     display: inline-flex;
@@ -110,6 +114,13 @@ footer article div i {
     text-align: center;
     font-size: 18px;
     margin: auto;
+}
+#center-bars {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
 }
 .box-article {
     border: solid 1px #ebebeb;
@@ -169,23 +180,7 @@ article:hover {
     display: inline-flex;
     width: 100%;
 }
-@media (max-width: 360px){
-    #center-bars {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-        padding-top: 15px;
-    }
-    #titulo {
-        padding-top: 5%;
-    }
-    #icon-search {
-        position: absolute;
-        right: -7px;
-        top: 4px;
-    }
-}
+
 @media (min-width: 361px){
     body header ul {
         padding: 20px;
@@ -232,6 +227,7 @@ article:hover {
      text-align: center;
      border: 1px solid;
      border-radius: 3px;
+     position: static;
     }
 }
 @media (min-width: 768px){
@@ -305,6 +301,7 @@ article:hover {
     #titulo {
         width: 33.33%;
         display: flex;
+        padding: 0;
     }
     .align-mainbar {
         width: 48%;
@@ -365,5 +362,27 @@ article:hover {
     }
     footer article {
         width: 30%;
+    }
+}
+@media (min-width: 1440px) {
+    main section {
+        height: 50vh;
+    }
+    #header-logo {
+        width: 85%;
+        height: 90%;
+    }
+    body header ul a {
+        font-size: 22px;
+    }
+    #titulo {
+        font-size: 20px;
+    }
+    #search-bar {
+        width: 100%;
+        padding: 10px;
+    }
+    #icon-search {
+        padding: 10px;
     }
 }
