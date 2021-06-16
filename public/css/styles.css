@@ -180,8 +180,11 @@ article:hover {
     display: inline-flex;
     width: 100%;
 }
+.width-search-bar {
+    width: 100%;
+}
 
-@media (min-width: 361px){
+@media (min-width: 426px){
     body header ul {
         padding: 20px;
         display: block;
