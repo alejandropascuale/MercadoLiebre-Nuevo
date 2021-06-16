@@ -37,16 +37,17 @@ footer article {
     text-align: center;
 }
 footer article h4 {
-    margin-bottom: 0px;
+    margin: 10px;
 }
 footer article p {
-    margin-top: 0px;
+    margin-bottom: 10px;
 }
 footer article div {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    margin-bottom: 5px;
 }
 footer article div i {
     color: #1259c3;
@@ -54,6 +55,7 @@ footer article div i {
 }
 footer p {
     margin-top: 10px;
+    font-size: 14px;
 }
 #header-logo {
     width: 100%;
