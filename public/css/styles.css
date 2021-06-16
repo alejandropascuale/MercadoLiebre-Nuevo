@@ -184,7 +184,7 @@ article:hover {
     width: 100%;
 }
 
-@media (min-width: 426px){
+@media (min-width: 461px){
     body header ul {
         padding: 20px;
         display: block;
