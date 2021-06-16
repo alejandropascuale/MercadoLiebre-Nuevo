@@ -236,6 +236,9 @@ article:hover {
     body header ul {
         display: inline-flex;
     }
+    main section {
+        height: 40vh;
+    }
     .width-search-bar {
         width: 70%;
     }
@@ -314,6 +317,9 @@ article:hover {
     }
 }
 @media (min-width: 1024px) {
+    main section {
+        height: 45vh;
+    }
     body header ul a {
         text-decoration: none;
         color: #03264C;
