@@ -36,12 +36,6 @@ footer article {
     width: 85%; 
     text-align: center;
 }
-footer article h4 {
-    margin: 10px;
-}
-footer article p {
-    margin-bottom: 10px;
-}
 footer article div {
     display: flex;
     justify-content: center;
