@@ -285,4 +285,7 @@ input:invalid {
     .align-button {
         text-align: center;
     }
+    .footer-flex {
+        display: flex;
+    }
 }
