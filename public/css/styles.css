@@ -124,6 +124,7 @@ footer article div i {
     top: -30px;
     background-color: white;
     border-radius: 50%;
+    transition: all 1s;
 }
 .icon-truck {
     display: flex;
@@ -135,10 +136,9 @@ footer article div i {
     align-items: center;
     justify-content: center;
     align-content: center;
-    transition: all 1s;
 }
 article:hover .delivery-icon {
-    transform: rotateX(180);
+    transform: rotate(360deg);
 }
 .price {
     font-size: 18px;
