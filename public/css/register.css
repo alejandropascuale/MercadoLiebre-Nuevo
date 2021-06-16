@@ -238,7 +238,10 @@ input:invalid {
         width: 45%;
     }
     .view-not-mobile {
-        display: block;
+        display: none;
+    }
+    .align-button {
+        text-align: center;
     }
 }
 @media (min-width: 1024px) {
@@ -264,6 +267,12 @@ input:invalid {
         width: 85%;
     }
     .view-not-mobile {
-        display: block;
+        display: none;
+    }
+    .format-bar {
+        width: 70%;
+    }
+    .align-button {
+        text-align: center;
     }
 }
