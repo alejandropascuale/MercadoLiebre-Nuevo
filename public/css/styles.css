@@ -52,6 +52,7 @@ footer article {
 }
 footer article p {
     margin-bottom: 10px;
+    font-size: 12px;
 }
 footer article div {
     display: flex;
@@ -357,5 +358,12 @@ article:hover {
     }
     .discount {
         font-size: 18px;
+    }
+    .footer-flex {
+        display: flex;
+        margin-bottom: 15px;
+    }
+    footer article {
+        width: 30%;
     }
 }
