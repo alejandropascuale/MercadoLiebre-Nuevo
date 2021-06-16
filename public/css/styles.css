@@ -135,6 +135,10 @@ footer article div i {
     align-items: center;
     justify-content: center;
     align-content: center;
+    transition: all 1s;
+}
+article:hover .delivery-icon {
+    transform: rotateX(180);
 }
 .price {
     font-size: 18px;
@@ -151,7 +155,7 @@ footer article div i {
     margin-top: 15px;
     display: none;
     opacity: 0;
-    transition: all 5s;
+    transition: all .1s;
 }
 article:hover .description {
     display: block;
@@ -192,11 +196,11 @@ article:hover {
     .description {
         /*display: block;*/
         opacity: 0;
-        transition: all 5s;
+        transition: all .1s;
     }
     main section article {
         margin: 10px 0px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
         width: 50%;
     }
     .contenedor-productos {
@@ -259,7 +263,7 @@ article:hover {
     .description {
         /*display: block;*/
         opacity: 0;
-        transition: all 5s;
+        transition: all .1s;
     }
     article:hover .price {
         opacity: 1;
@@ -275,7 +279,7 @@ article:hover {
     }
     main section article {
         margin: 10px 0px;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
     }
     .contenedor-productos {
         display: flex;
@@ -319,6 +323,7 @@ article:hover {
 @media (min-width: 1024px) {
     main section {
         height: 45vh;
+        margin-bottom: 10px;
     }
     body header ul a {
         text-decoration: none;
@@ -345,7 +350,7 @@ article:hover {
         /*display: block;*/
         font-size: 16px;
         opacity: 0;
-        transition: all 5s;
+        transition: all .1s;
     }
     .price {
         font-size: 18px;
