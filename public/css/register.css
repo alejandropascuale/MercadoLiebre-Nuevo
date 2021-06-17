@@ -170,6 +170,12 @@ input:invalid {
     width: 10%;
     padding: 0;
 }
+footer i {
+    transition: all 0.5s;
+}
+footer article:hover .icon-footer {
+    color: #EAC926;
+}
 @media (min-width: 461px){
     body header ul {
         padding: 20px;

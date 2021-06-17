@@ -173,8 +173,14 @@ article:hover .description {
     display: block;
     opacity: 1;
 }
-article:hover {
+main article:hover {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+footer i {
+    transition: all 0.5s;
+}
+footer article:hover .icon-footer {
+    color: #EAC926;
 }
 .contenedor-precio-dscto {
     display: inline-flex;
@@ -369,7 +375,7 @@ article:hover {
 }
 @media (min-width: 1440px) {
     main section {
-        height: 42vh;
+        height: 45vh;
     }
     #header-logo {
         width: 85%;
@@ -396,5 +402,9 @@ article:hover {
     }
     .description {
         font-size: 22px;
+    }
+    .icon-truck {
+        width: 42px;
+        height: 42px;
     }
 }
