@@ -143,6 +143,7 @@ input {
 }
 input:hover {
     background-color:  #0022AA;
+    color: white;
 }
 input:invalid {
     border: rgba(255, 87, 87, 0.5) solid 2px;
@@ -157,6 +158,9 @@ input:invalid {
 }
 .profile {
     display: flex;
+}
+.width-search-bar {
+    width: 100%;
 }
 @media (max-width: 360px){
     #center-bars {
@@ -197,12 +201,13 @@ input:invalid {
         color: #666;
     }
     #icon-search {
-     background-color: white;
-     color: #666;
-     padding: 4px;
-     text-align: center;
-     border: 1px solid;
-     border-radius: 3px;
+        background-color: white;
+        color: #666;
+        padding: 4px;
+        text-align: center;
+        border: 1px solid;
+        border-radius: 3px;
+        position: static;
     }
 }
 @media (min-width: 768px){
@@ -232,6 +237,7 @@ input:invalid {
     #titulo {
         width: 33.33%;
         display: flex;
+        padding: 0;
     }
     .align-mainbar {
         width: 48%;

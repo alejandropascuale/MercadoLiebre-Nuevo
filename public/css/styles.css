@@ -116,7 +116,7 @@ footer article div i {
     margin: auto;
 }
 #center-bars {
-    display: flex;
+    display: flex;  
     align-items: center;
     justify-content: center;
     align-content: center;
@@ -241,7 +241,7 @@ article:hover {
         display: inline-flex;
     }
     main section {
-        height: 40vh;
+        height: 30vh;
     }
     .width-search-bar {
         width: 70%;
@@ -323,7 +323,7 @@ article:hover {
 }
 @media (min-width: 1024px) {
     main section {
-        height: 45vh;
+        height: 35vh;
         margin-bottom: 10px;
     }
     body header ul a {
@@ -369,7 +369,7 @@ article:hover {
 }
 @media (min-width: 1440px) {
     main section {
-        height: 50vh;
+        height: 42vh;
     }
     #header-logo {
         width: 85%;
@@ -387,5 +387,14 @@ article:hover {
     }
     #icon-search {
         padding: 10px;
+    }
+    .price {
+        font-size: 22px;
+    }
+    .discount {
+        font-size: 22px;
+    }
+    .description {
+        font-size: 22px;
     }
 }
