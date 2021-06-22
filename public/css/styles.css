@@ -246,9 +246,6 @@ footer article:hover .icon-footer {
     body header ul {
         display: inline-flex;
     }
-    main section {
-        height: 30vh;
-    }
     .width-search-bar {
         width: 70%;
     }
@@ -329,7 +326,6 @@ footer article:hover .icon-footer {
 }
 @media (min-width: 1024px) {
     main section {
-        height: 35vh;
         margin-bottom: 10px;
     }
     body header ul a {
@@ -374,9 +370,6 @@ footer article:hover .icon-footer {
     }
 }
 @media (min-width: 1440px) {
-    main section {
-        height: 45vh;
-    }
     #header-logo {
         width: 85%;
         height: 90%;
