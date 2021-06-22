@@ -5,7 +5,7 @@
     box-sizing: ​border-box​;
 }
 body {
-    background-color: #ebebeb;
+    background-color: rgb(231, 231, 231);
 }
 body header {
     background-color: #EAC926;
@@ -321,5 +321,22 @@ footer article:hover .icon-footer {
     }
     main form {
         width: 60vw;
+    }
+    .format-bar {
+        width: 50%;
+        margin: 10px auto;
+    }
+    .width-wide {
+        width: 50%;
+    }
+    .margin-0 {
+        margin: 0;
+    }
+    .format-bar-wide {
+        display: flex;
+        flex-direction: column;
+    }
+    .buttons-register {
+        width: 40%;
     }
 }
